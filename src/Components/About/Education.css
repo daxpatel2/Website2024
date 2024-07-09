@@ -1,0 +1,95 @@
+/* Education.css */
+.education-container {
+  width: 100%;
+  border-top: 0.5px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px; /* Or the max width of your content area */
+  margin: 0 auto; /* Center the container */
+  align-items: center;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid #e0e0e0;
+}
+
+.section-title {
+  font-family: "Inter Regular", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  color: #a0a5ac;
+  line-height: 14px;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  padding-top: 15px;
+  align-self: flex-start;
+}
+
+.education-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.text-content {
+  flex: 3; /* Allows text to fill available space */
+  padding-right: 100px; /* Adds some space between the text and the image */
+}
+
+.institution-name {
+  padding-top: 100px;
+  font-family: "Sequel Sans Medium Disp", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  font-size: 28px;
+  color: #3b3d41; /* or your preferred color */
+  letter-spacing: -1px;
+}
+
+.institution-degree {
+  font-family: "Sequel Sans Medium Disp", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  font-size: 28px;
+  color: #a0a5ac; /* or your preferred color */
+  margin-top: -6px;
+  letter-spacing: -1px;
+}
+
+.degree-details {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+  margin: 5px 0;
+}
+
+.degree-details li {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #3b3d41; /* or your preferred color */
+  font-family: var(--main-font);
+  margin: 5px 0;
+}
+
+.institution-image {
+  width: auto; /* Keeps image aspect ratio */
+  max-width: 400px; /* Maximum width of the image */
+  max-height: 300px; /* Maximum height of the image */
+  object-fit: contain; /* Ensures the image covers the area, use 'contain' to fit it inside */
+  flex: 1;
+  margin-top: 30px;
+  border-radius: 10px; /* Adds rounded corners to the image */
+  opacity: 0.75; /* Adjust the opacity as needed */
+}
+
+.semester-detail {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #3b3d41; /* or your preferred color */
+  font-family: var(--main-font);
+  margin: 5px 0;
+}

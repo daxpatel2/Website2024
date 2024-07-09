@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Additional global styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0; /* Removes default margins */
+  padding: 0; /* Removes default padding */
+}
+
+/* This ensures that your application stretches to the full viewport height */
+html,
+body {
+  height: 100%;
+}
+
+/* Add styles for specific elements in your content as needed */

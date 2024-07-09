@@ -1,0 +1,60 @@
+.sidebar-main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  border-right: 0.5px solid rgb(160, 165, 172);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--background-color);
+  overflow-y: auto;
+  width: 250px;
+}
+.Interface-box {
+  border-bottom: 0.5px solid rgb(160, 165, 172);
+  padding-bottom: 20px; /* Change this */
+}
+
+.sidebar {
+  padding: 30px;
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid rgb(160, 165, 172);
+}
+
+.image {
+  width: 100px;
+  height: auto;
+  scale: 1;
+}
+
+.sidebar h2 {
+  font-size: 12px;
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  cursor: pointer;
+  font-family: "Sequel Sans Medium", "Arial", sans-serif; /* Adjust to match the exact font family */
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar h2:hover {
+  color: rgb(160, 165, 172);
+}
+
+.sidebar h3 {
+  font-size: 16px; /* Adjust to match the exact size */
+  color: #777; /* Adjust to match the exact color */
+  font-weight: normal;
+  margin-top: 50px; /* Adjust if there's a specific top margin */
+  cursor: pointer;
+}
+
+.sidebar h3:hover {
+  color: #555; /* This is for hover state, adjust to match the exact color */
+}

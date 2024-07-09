@@ -1,0 +1,69 @@
+/* Education.css */
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  padding: 20px;
+}
+
+.todo-entry {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  justify-content: flex-start;
+}
+
+.todo-title {
+  font-family: "Inter Regular", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  color: #a0a5ac;
+  line-height: 14px;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  padding-top: 80px;
+}
+
+.todo-content {
+  flex-basis: 50%; /* Allows text to fill available space */
+}
+
+.todo-details {
+  list-style-type: none; /* Remove default list styling */
+  padding-left: 0;
+}
+
+.todo-details li {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  color: #3b3d41; /* or your preferred color */
+  font-family: "Sequel Sans Medium Disp", sans-serif;
+  margin: -2px;
+  letter-spacing: -1px;
+}
+
+.todo-images {
+  flex-basis: 50%; /* Give the images 40% of the space, adjust as needed */
+  display: flex;
+  flex-direction: row; /* Stack the images vertically */
+  justify-content: center; /* Center the images vertically */
+  align-items: center; /* Center the images horizontally */
+}
+
+.image1,
+.image2 {
+  max-width: 100%; /* Make sure the images don't exceed their container */
+  max-height: 300px; /* Set a maximum height for the images */
+  object-fit: cover; /* Adjust as needed */
+  margin-bottom: 20px; /* Add space between the images */
+  border-radius: 10px;
+  opacity: 0.85;
+}
+
+.image2 {
+  padding-top: 60px;
+  padding-left: 20px;
+  border-radius: 10px;
+  object-fit: cover;
+}

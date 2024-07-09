@@ -1,0 +1,32 @@
+.interface-box {
+  font-family: var(--main-font);
+  width: 250px; /* Adjust to match the exact width */
+  padding: 30px;
+  padding-bottom: 10px;
+}
+
+.interface-box h2 {
+  font-family: var(--main-font);
+  font-size: 12px; /* Adjust to match the exact size */
+  font-style: normal;
+  color: #a0a5ac;
+  line-height: 14px;
+  margin-bottom: 6px; /* Adjust to match the exact spacing */
+  font-weight: 400;
+  letter-spacing: 2.5px;
+}
+
+.interface-box a {
+  font-size: 14px; /* Adjust to match the exact size */
+  font-family: var(main-font);
+  margin-bottom: 10px; /* Adjust to match the exact spacing */
+  font-weight: 400;
+  font-style: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.interface-box a:hover {
+  color: rgb(160, 165, 172);
+}
