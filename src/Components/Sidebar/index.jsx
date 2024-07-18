@@ -1,8 +1,10 @@
 import React from "react";
 import "./index.css";
 import SmallComponent from "./smallComponent";
+import { useNavigate } from "react-router-dom";
 
 function Sidebar() {
+  const navigate = useNavigate();
   return (
     <div className="sidebar-main">
       <div className="Interface-box">
@@ -12,6 +14,7 @@ function Sidebar() {
           subinterface_2="Writing"
           link1={"/about"}
           link2={"/writing"}
+          onClick={() => navigate("/writing")}
         />
         <SmallComponent
           interface_type="PERSONAL"

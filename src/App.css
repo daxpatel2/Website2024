@@ -20,10 +20,13 @@ p {
   padding: 0; /* Removes default padding */
 }
 
-/* This ensures that your application stretches to the full viewport height */
-html,
 body {
   height: 100%;
 }
 
-/* Add styles for specific elements in your content as needed */
+.master-item::before {
+  content: "•";
+  color: #007bff;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}

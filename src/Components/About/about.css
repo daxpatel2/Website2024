@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
+  flex: 0.7;
 }
 
 .title-section {
